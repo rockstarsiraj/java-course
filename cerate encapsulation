@@ -1,0 +1,21 @@
+
+class sem{
+    private int price=20000;
+    private String name="siraj";
+    public int getage()
+    {
+        return price;
+    }
+    public String getname(){
+        return name;
+    }
+}
+
+public class encap {
+    public static void main(String[] args) {
+        sem obj=new sem();
+        System.out.print(obj.getage()+" "+obj.getname());
+        
+        
+    }
+}
