@@ -1,0 +1,9 @@
+class string{
+    public static void main(String args[]){
+        StringBuffer name=new StringBuffer("siraj hail ");
+        name.append("shaik");
+        System.out.println(name);
+        System.out.println(name.capacity());
+        System.out.println(name.length());
+    }
+}
