@@ -1,0 +1,40 @@
+class hall {
+    public int add (int n1,int n2){
+        return n1+n2;
+        
+    }
+        public int sub (int n1,int n2){
+            return n1-n2;
+            
+    
+    }
+}
+
+
+
+public class inher {
+    public static void main(String[] args) {
+        hem obj=new hem();
+        int r1=obj.add(4,5);
+        int r2=obj.sub(8, 4);
+        int r3=obj.mul(8, 9);
+        int r4=obj.div(32, 4);
+        System.out.println(r1+" "+r2);
+        System.out.println(r3+" "+r4);
+        
+    }
+    
+}
+//this is in another file//
+class hem extends hall{
+    public int mul(int n1,int n2){
+        return n1+n2;
+    }
+    public int div(int n1,int n2){
+        return n1/n2;
+    }
+
+}
+inheritance:one class aquires propertues of other class is called inheritance.
+Extends keyword is used to inherit
+
