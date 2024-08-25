@@ -1,0 +1,25 @@
+abstract class car{
+    public  abstract void drive();
+
+    
+    public void music(){
+        System.out.println("playing music");
+    }
+}
+class wagoncar extends car{
+
+    public void drive(){
+        System.out.println("driving");
+    }
+    
+}
+class dem{
+    public static void main(String[] args) {
+        car obj=new wagoncar();
+        obj.drive();
+        obj.music();
+    }
+}
+op:
+driving
+playing music
